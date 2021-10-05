@@ -8,19 +8,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="prueba.css">
         <title>Pedidos de Recetas</title>
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
 <body>
-    
-    <div id="h1">Comentarios</div>
-    <form action="/form.php" method="get"></form>
-<label for="n">Nombre:</label>
-<input type="text" id="n" name="n">
-<br><br>
-<label for="a">Apellido</label>
-<input type="text" id="a" name="a"><br><br>
-<label for="com">Comentarios</label>
-<input type="text id=com" name="com">
-<br><br>
-<input type="submit" value="Enviar">
-<input type="reset" value="Borrar">
+    <form>
+        <div class="form-group row">
+          <label for="Nombre" class="col-sm-2 col-form-label">Apellido</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="apellido" class="col-sm-2 col-form-label">Apellido</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+          </div>
+        </div>
+        <div class="form-group row">
+            <label for="comentarios" class="col-sm-2 col-form-label">Comentarios</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="comentarios" placeholder="Comentarios">
+            </div>
+          </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Corrobore la informacion ingresada
+          </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </form>
 </body>
- <div id="footer"><span><a href="https://github.com/Luzbelito77/Luzbelito77"><i class="fas fa-chess-rook"></i></a></div>
+ <div id="footer"><span><a href="https://github.com/Luzbelito77"><i class="fas fa-chess-rook"></i></a></div>

@@ -1,0 +1,14 @@
+#contenedor {
+    border: 1px olive solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: space-around;
+    justify-content: center;
+    }
+    
+    .item{
+    border:3px orange solid;
+    padding: 30px;
+    
+    }
