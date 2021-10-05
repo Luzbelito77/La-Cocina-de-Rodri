@@ -142,7 +142,7 @@ html {
 #p{
     color:black;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 200%;
     text-decoration: none;
     color:inherit
 }
