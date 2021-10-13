@@ -1,3 +1,7 @@
+/* @media screen and {min-width 1024px){};
+  @media screen and {min-width 768px) and (max-width:1023px){};
+    @media screen and {min-width 480px) and (max-width:767px){};
+   */
 
 * {
     margin: top 50px;
@@ -17,7 +21,6 @@ html {
   #boton{
     align-items: center;
     border-radius: 15px;
-    flex:auto;
     
   }
   .bga {
@@ -160,7 +163,7 @@ a, a:hover, a:visited, a:active {
    text-align: left;
     margin-left: 5vh;
     text-decoration: none;
-    font-size: 4vh;
+    font-size: 2vh;
 }
 #footer{
     position: fixed;
@@ -230,4 +233,33 @@ span1:hover{
   60% {color: blue;}
   80% {color: violet;}
   100% {color: red;}
+}
+
+
+.box {
+  display: flex;
+  background-color: transparent;
+  justify-content:flex-start;
+  align-items: center;
+  align-content: stretch;
+  width: 100%;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+.item1 {
+  background-color: transparent;
+  width: 20vh;
+  margin: 1vh;
+  text-align: center;
+  line-height: 1vh;
+  font-size: 2vh;
+
+}
+.item2 {
+  background-color: transparent;
+  width: 20vh;
+  margin: 1vh;
+  text-align: left;
+  line-height: 2vh;
+  font-size: 2vh;
 }
