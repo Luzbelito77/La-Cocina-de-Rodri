@@ -236,7 +236,7 @@ span1:hover{
 }
 
   
-#logo
+.logo
 {
   display: flex ;
   flex-wrap: wrap;
