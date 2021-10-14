@@ -238,14 +238,16 @@ span1:hover{
   
 .logo
 {
+  
   display: flex ;
   flex-wrap: wrap;
   flex-direction: row ;
   align-items: space-around;
   justify-content:space-between;
+  max-height:100vh;
   max-width: 0.5vh;
   }
-
+}
 
 .box {
   display: flex;
