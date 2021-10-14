@@ -236,12 +236,16 @@ span1:hover{
 }
 
   
-.logo
+#logo
 {
-  position: fixed;  
-  width: 5vh;
-  border-radius : 5px;
-}
+  display: flex ;
+  flex-wrap: wrap;
+  flex-direction: row ;
+  align-items: space-around;
+  justify-content:space-between;
+  max-width: 0.5vh;
+  }
+
 
 .box {
   display: flex;
