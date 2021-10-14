@@ -235,6 +235,13 @@ span1:hover{
   100% {color: red;}
 }
 
+  
+.logo
+{
+  position: fixed;  
+  width: 20vh;
+  border-radius : 5px;
+}
 
 .box {
   display: flex;
