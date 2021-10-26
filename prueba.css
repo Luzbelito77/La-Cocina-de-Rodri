@@ -3,17 +3,16 @@
     @media screen and {min-width 480px) and (max-width:767px){};
    */
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
 * {
     margin: top 50px;
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;   
 }
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 #body{
-    color: rgb(21, 68, 99);
+    color:  ;
 }
 html {
     height:100%;
@@ -249,7 +248,7 @@ span1:hover{
   max-height:100vh;
   max-width: 0.5vh;
   }
-}
+
 
 .box {
   display: flex;
