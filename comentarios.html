@@ -12,34 +12,39 @@
         <div class="bg bg2"></div>
         <div class="bg bg3"></div>
 <body>
- <form>
-  <div class="form-row">
-    <div class="col-md-4 mb-3">
-      <label for="validationServer01">Nombre</label>
-      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Nombre">
-      <div class="valid-feedback">
-        Correcto!
-      </div>
-    </div>
-    <div class="col-md-4 mb-3">
-      <label for="validationServer02">Apellido</label>
-      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Apellido">
-      <div class="valid-feedback">
-        Correcto!
-      </div>
-    </div>
-     <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-      <label class="form-check-label" for="invalidCheck3">
-        Estas de acuerdo con los terminos
-      </label>
-      <div class="invalid-feedback">
-        Debes hacer Click en enviar comentario
-      </div>
-    </div>
-  </div>
-  <button class="btn btn-primary" type="submit">Enviar Comentario</button>
-</form>
+    <form>
+        <div class="form-group row">
+          <label for="Nombre" class="col-sm-2 col-form-label">Apellido</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="apellido" class="col-sm-2 col-form-label">Apellido</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+          </div>
+        </div>
+        <div class="form-group row">
+            <label for="comentarios" class="col-sm-2 col-form-label">Comentarios</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="comentarios" placeholder="Comentarios">
+            </div>
+          </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Corrobore la informacion ingresada
+          </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </form>
 </body>
  <div id="footer"><span><a href="https://github.com/Luzbelito77"><i class="fas fa-chess-rook"></i></a></div>
