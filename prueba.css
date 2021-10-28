@@ -1,18 +1,17 @@
-/* @media screen and {min-width 1024px){};
-  @media screen and {min-width 768px) and (max-width:1023px){};
-    @media screen and {min-width 480px) and (max-width:767px){};
-   */
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  
+}
 
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  
+}
 * {
     margin: top 50px;
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;   
-}
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-#body{
-    color:  ;
 }
 html {
     height:100%;
