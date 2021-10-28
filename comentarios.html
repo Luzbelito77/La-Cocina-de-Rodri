@@ -7,44 +7,50 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="prueba.css">
-        <title>Comentarios</title>
+        <title>Pedidos de Recetas</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- https://www.w3schools.com/bootstrap4/bootstrap_forms.asp  aca saque el codigo para el fomrulario validado mediante bootstrap-->
         <div class="bg"></div>
         <div class="bg bg2"></div>
         <div class="bg bg3"></div>
+        </head>
 <body>
-    <form>
-        <div class="form-group row">
-          <label for="Nombre" class="col-sm-2 col-form-label">Apellido</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
-          </div>
-        </div>
-        <div class="form-group row">
-          <label for="apellido" class="col-sm-2 col-form-label">Apellido</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" id="apellido" placeholder="Apellido">
-          </div>
-        </div>
-        <div class="form-group row">
-            <label for="comentarios" class="col-sm-2 col-form-label">Comentarios</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="comentarios" placeholder="Comentarios">
-            </div>
-          </div>
-        <div class="form-group row">
-          <div class="col-sm-10">
-            <div class="form-check">
-          <label class="form-check-label">
-            <input class="form-check-input" type="checkbox"> Corrobore la informacion ingresada
-          </label>
-            </div>
-          </div>
-        </div>
-        <div class="form-group row">
-          <div class="col-sm-10">
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </div>
-        </div>
-      </form>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+  </head>
+  <body>
+  
+  <div class="container">
+    <h2>Comentarios</h2>
+    <p>Aqui podras poner comentarios o pedidos de recetas</p>
+    <form action="/action_page.php" class="was-validated">
+      <div class="form-group">
+        <label for="nombre">Nombre y Apellido:</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su Nombre y Apellido" name="nombre" required>
+        <div class="valid-feedback">Correcto.</div>
+        <div class="invalid-feedback">Por favor rellena este campo.</div>
+      </div>
+      <div class="form-group">
+        <label for="comentario">Comentario:</label>
+        <input type="text" class="form-control" id="comentario" placeholder="Ingrese su Comentario" name="comentario" required>
+        <div class="valid-feedback">Correcto.</div>
+        <div class="invalid-feedback">Por favor rellena este campo.</div>
+      </div>
+      <div class="form-group form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="revision" required> Enviar esta informacion.
+          <div class="valid-feedback">Correcto.</div>
+          <div class="invalid-feedback">Por favor tilda para continuar.</div>
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+   
 </body>
  <div id="footer"><span><a href="https://github.com/Luzbelito77"><i class="fas fa-chess-rook"></i></a></div>
