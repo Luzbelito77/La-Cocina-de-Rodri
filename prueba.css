@@ -1,26 +1,69 @@
 @media only screen and (min-width: 600px) {
- 
+ html 
 }
 
 @media only screen and (min-width: 768px) {
- 
+  
 }
 * {
     margin: top 50px;
     padding: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
     text-decoration: none;   
+    font-weight: bolder;
 }
 html {
     height:100%;
   }
   
+body {
+    min-height: 100%;
+}
 
   #boton{
     align-items: center;
     border-radius: 15px;
     
   }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    padding: 50px;
+  }
+  form div input {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #c4c4c4;
+    padding: 0 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  form div {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  input:focus {
+    border: 2px solid #f2796e;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  button {
+  margin-top: 15px;
+  width: 100%;
+  height: 45px;
+  background-color: #09f; 
+  border: 2px solid rgb(204, 138, 51)f;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
   .bga {
     animation:slide 3s ease-in-out infinite alternate;
     background-image: linear-gradient(-60deg, rgb(204, 51, 102) 50%, #09f 50%);
@@ -243,7 +286,7 @@ span1:hover{
   align-items: space-around;
   justify-content:space-between;
   max-height:100vh;
-  max-width: 0.5vh;
+  max-width: 60vh;
   }
 
 

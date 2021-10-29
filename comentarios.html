@@ -1,56 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
-         <div id="header"><a href="index.html"></i><i class="fas fa-arrow-alt-circle-left"></i>Indice</a></div>
-    <script src="https://kit.fontawesome.com/bd0e6e7cad.js" crossorigin="anonymous"></script>
+<div id="header"><a href="index.html"></i><i class="fas fa-arrow-alt-circle-left"></i>Indice</a></div>
+<script src="https://kit.fontawesome.com/bd0e6e7cad.js" crossorigin="anonymous"></script>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="prueba.css">
-        <title>Pedidos de Recetas</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <!-- https://www.w3schools.com/bootstrap4/bootstrap_forms.asp  aca saque el codigo para el fomrulario validado mediante bootstrap-->
-        <div class="bg"></div>
-        <div class="bg bg2"></div>
-        <div class="bg bg3"></div>
-        </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="prueba.css">
+  <title>Pedidos de Recetas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+  <!-- https://www.w3schools.com/bootstrap4/bootstrap_forms.asp  aca saque el codigo para el fomrulario validado mediante bootstrap-->
+  <div class="bg"></div>
+  <div class="bg bg2"></div>
+  <div class="bg bg3"></div>
+</head>
+
 <body>
   <!DOCTYPE html>
   <html lang="en">
-  <head>
 
-  </head>
-  <body>
-  
   <div class="container">
-    <h2>Comentarios</h2>
-    <p>Aqui podras poner comentarios o pedidos de recetas</p>
-    <form action="/action_page.php" class="was-validated">
+    <h1>Comentarios</h1>
+    <h2>Aqui podras poner comentarios o pedidos de recetas</h2>
+    <form>
       <div class="form-group">
-        <label for="nombre">Nombre y Apellido:</label>
-        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su Nombre y Apellido" name="nombre" required>
-        <div class="valid-feedback">Correcto.</div>
-        <div class="invalid-feedback">Por favor rellena este campo.</div>
+        <label for="email">Direccion de Email</label>
+        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
       </div>
-      <div class="form-group">
-        <label for="comentario">Comentario:</label>
-        <input type="text" class="form-control" id="comentario" placeholder="Ingrese su Comentario" name="comentario" required>
-        <div class="valid-feedback">Correcto.</div>
-        <div class="invalid-feedback">Por favor rellena este campo.</div>
+      <div class="nombre">
+        <label for="nombre">Nombre y Apellido</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Nombre y Apellido">
       </div>
-      <div class="form-group form-check">
-        <label class="form-check-label">
-          <input class="form-check-input" type="checkbox" name="revision" required> Enviar esta informacion.
-          <div class="valid-feedback">Correcto.</div>
-          <div class="invalid-feedback">Por favor tilda para continuar.</div>
-        </label>
+      <div class="comentario">
+        <label for="comentarios">Comentarios</label>
+        <textarea class="form-control" id="comentarios" rows="3" cols="58"></textarea>
       </div>
-      <button type="reset" class="btn btn-primary">Enviar</button>
+        <button id="btn" type="submit">Enviar</button>
     </form>
   </div>
-   
+
 </body>
- <div id="footer"><span><a href="https://github.com/Luzbelito77"><i class="fas fa-chess-rook"></i></a></div>
+<div id="footer"><span><a href="https://github.com/Luzbelito77"><i class="fas fa-chess-rook"></i></a></div>
