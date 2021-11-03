@@ -1,44 +1,41 @@
 <!DOCTYPE html>
-<html lang="es">
-<div id="header"><a href="index.html"></i><i class="fas fa-arrow-alt-circle-left"></i>Indice</a></div>
-<script src="https://kit.fontawesome.com/bd0e6e7cad.js" crossorigin="anonymous"></script>
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="prueba.css">
-  <title>Pedidos de Recetas</title>
+<html>
+  <div id="header"><a href="index.html"></i><i class="fas fa-arrow-alt-circle-left"></i>Indice</a></div>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
-  <!-- https://www.w3schools.com/bootstrap4/bootstrap_forms.asp  aca saque el codigo para el fomrulario validado mediante bootstrap-->
-  <div class="bg"></div>
-  <div class="bg bg2"></div>
-  <div class="bg bg3"></div>
+
+<head>
+    <meta charset="utf-8">
+    <title>Comentarios</title>
+    <div class="bgb"></div>
+    <div class="bgb bg2"></div>
+    <div class="bgb bg3"></div>
+    <link rel="stylesheet" href="Prueba.css">
 </head>
+<div class="container">
+    <form id="comentarios" class="form">
+        <h1>Comentarios</h1>
+        <div class="form-field">
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" name="nombre" id="nombre" autocomplete="off" placeholder="Juan Perez">
+            <small></small>
+        </div>
 
-<body>
-  <!DOCTYPE html>
-  <html lang="en">
+        <div class="form-field">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" autocomplete="off" placeholder = "juan@perez.com">
+            <small></small>
+        </div>
 
-  <div class="container">
-    <h1>Comentarios</h1>
-    <h2>Aqui podras poner comentarios o pedidos de recetas</h2>
-    <form>
-      <div class="form-group">
-        <label for="email">Direccion de Email</label>
-        <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
-      </div>
-      <div class="nombre">
-        <label for="nombre">Nombre y Apellido</label>
-        <input type="text" class="form-control" id="nombre" placeholder="Nombre y Apellido">
-      </div>
-      <div class="comentario">
-        <label for="comentarios">Comentarios</label>
-        <textarea class="form-control" id="comentarios" rows="3"></textarea>
-      </div>
-        <button id="btn" type="submit">Enviar</button>
+        <textarea name="textarea" rows="4" cols="15" placeholder="Ingrese aqui su Comentario . . ."></textarea>
+
+        <div class="form-field">
+            <input type="reset" value="Enviar">
+        </div>
     </form>
-  </div>
+</div>
 
-</body> <div id="footer"><span><a href="https://github.com/Luzbelito77">青</a></div>
+<script src="js/comentarios.js"></script>
+</body>
+</html>
